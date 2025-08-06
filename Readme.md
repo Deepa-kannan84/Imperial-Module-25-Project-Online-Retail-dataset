@@ -38,8 +38,8 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 - Accuracy: 74.62% (MAPE)
 - R² score: 47%
 - Limitations: Struggles with sudden demand shifts.
-- 
-<img src="Images/KNN.png" alt=" KNN" style="width: 300px; height: 200px;">
+
+- <img src="Images/KNN.png" alt=" KNN" style="width: 300px; height: 200px;">
 
 ### **ARIMA**:
 - AIC: 12044, Log likelihood: -6014
@@ -59,14 +59,14 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 - Accuracy: 80%
 - Limitations: Struggles with recall for minority classes.
 
-- 
+
 <img src="Images/Random Forest.png" alt=" KNN" style="width: 300px; height: 200px;">
 
 ### **XGBoost**:
 - Accuracy: 58%
 - Limitations: Class imbalance, poor recall for smaller classes.
 
-- 
+ 
 <img src="Images/XGBoost.png" alt=" KNN" style="width: 300px; height: 200px;">
 
 ### **KMeans**:
@@ -76,6 +76,7 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 ### **DBSCAN**:
 - Silhouette Score: 0.51 (Fairly good clustering with some noise)
 - Limitations: Sensitive to the selection of eps and min_samples.
+
 
 
 
