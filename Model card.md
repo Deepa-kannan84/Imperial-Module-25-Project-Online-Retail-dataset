@@ -105,7 +105,7 @@ The model takes in both numerical and categorical features, including total purc
 The model predicts customer returner labels, which are numerically encoded as: First-Time Customer, Non-Returner, Genuine Returner, High Returner, and Habitual Returner.
 
 ### Model Architecture
-The model uses XGBoost with 300 trees, a maximum depth of 10, a learning rate of 0.1, and column subsample of 0.8. It uses `mlogloss` as the evaluation metric and is designed for multiclass classification.
+The model uses XGBoost with 300 trees, a maximum depth of 10, a learning rate of 0.1, and column subsample of 0.8. It uses mlogloss as the evaluation metric and is designed for multiclass classification.
 
 ### Performance
 After tuning, the XGBoost model achieved an accuracy of 58% on the test set. The precision was high for most classes, but the recall was low for smaller classes, particularly class 0 and 1. The confusion matrix showed a dominant prediction for class 4, with other classes being heavily misclassified as class 4.
@@ -157,5 +157,6 @@ The model uses DBSCAN clustering with eps = 0.4 and min_samples = 6. The optimal
 
 ### Performance
 The clustering model was evaluated using the Silhouette Score, which measures the quality of clusters. A silhouette score of 0.51 indicates that the clustering is somewhat well-defined, with a reasonable separation between clusters, though there is still some noise.
+
 
 
