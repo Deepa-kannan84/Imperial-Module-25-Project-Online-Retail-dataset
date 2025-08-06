@@ -61,7 +61,7 @@ It predicts customer groups: First-Time Customer, Non-Returner, Genuine Returner
 The model is a multinomial logistic regression trained with the lbfgs solver. I balanced the dataset using SMOTE to handle uneven class sizes. Preprocessing includes encoding, scaling, and PCA with 7 components.
 
 ### Performance
-With SMOTE and enough training iterations, the model gives almost perfect scores on the test set. Without balancing or fewer iterations, it struggles, especially with smaller classes. Increasing iterations helps improve results. Overall accuracy is about 94%.
+With SMOTE and enough training iterations, the model gives almost perfect scores on the test set. Without balancing or fewer iterations, it struggles, especially with smaller classes. Increasing iterations helps improve results. Overall accuracy is about 93%.
 
 ### Limitations
 Since the model uses synthetic data from SMOTE, it might overfit or not reflect real-world cases perfectly. Some smaller classes still have low precision, meaning more false positives. The model depends on good features and might not work well if data changes.
@@ -157,3 +157,4 @@ The model uses DBSCAN clustering with eps = 0.4 and min_samples = 6. The optimal
 
 ### Performance
 The clustering model was evaluated using the Silhouette Score, which measures the quality of clusters. A silhouette score of 0.51 indicates that the clustering is somewhat well-defined, with a reasonable separation between clusters, though there is still some noise.
+
