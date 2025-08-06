@@ -14,7 +14,7 @@ The model outputs a continuous numerical value representing the predicted quanti
 The model is a K-Nearest Neighbors regressor. Hyperparameters such as number of neighbors, weight type, and distance metric were tuned using randomized search with cross-validation. Categorical variables were one-hot encoded and numerical features were scaled using RobustScaler to handle skewness and outliers.
 
 ### Performance
-The model was trained and evaluated on a time-ordered train-test split without shuffling. Performance was measured using R² score (47% of the variation in quantity can be explained by the features used), mean squared error (MSE), and mean absolute percentage error (MAPE). The accuracy calculated as 100 minus MAPE was 74.62%. The results demonstrate how well the model predicts unseen quantity demand data.
+The model was trained and evaluated on a time-ordered train-test split without shuffling. Performance was measured using R² score (47% of the variation in quantity can be explained by the features used), mean squared error (MSE), and mean absolute percentage error (MAPE). The accuracy calculated as 100 minus MAPE was 74.63%. The results demonstrate how well the model predicts unseen quantity demand data.
 
 ### Limitations
 KNN can be computationally expensive with large datasets. It does not capture long-term trends or seasonality well and depends heavily on the quality of scaling. Sudden changes in demand may not be predicted accurately since KNN relies on similarity to past data points.
@@ -157,4 +157,5 @@ The model uses DBSCAN clustering with eps = 0.4 and min_samples = 6. The optimal
 
 ### Performance
 The clustering model was evaluated using the Silhouette Score, which measures the quality of clusters. A silhouette score of 0.51 indicates that the clustering is somewhat well-defined, with a reasonable separation between clusters, though there is still some noise.
+
 
