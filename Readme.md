@@ -65,4 +65,5 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 - Limitations: Sensitive to the selection of eps and min_samples.
 
 
-![Alt text]("\Completed\KNN.png")
+
+<img src="KNN.png" alt=" KNN" style="width: 300px; height: 200px;">
