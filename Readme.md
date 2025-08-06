@@ -49,15 +49,15 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 ### **Logistic Regression**:
 - Accuracy: 94% (with SMOTE)
 - Limitations: Can overfit with synthetic SMOTE data.
-
+<img src="Images/Logistic Regression.png" alt=" KNN" style="width: 300px; height: 200px;">
 ### **Random Forest**:
 - Accuracy: 80%
 - Limitations: Struggles with recall for minority classes.
-
+<img src="Images/Random Forest.png" alt=" KNN" style="width: 300px; height: 200px;">
 ### **XGBoost**:
 - Accuracy: 58%
 - Limitations: Class imbalance, poor recall for smaller classes.
-
+<img src="Images/XGBoost.png" alt=" KNN" style="width: 300px; height: 200px;">
 ### **KMeans**:
 - Silhouette Score: 0.97 (Excellent separation between clusters)
 - Limitations: Assumes spherical, equally sized clusters.
@@ -65,6 +65,7 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 ### **DBSCAN**:
 - Silhouette Score: 0.51 (Fairly good clustering with some noise)
 - Limitations: Sensitive to the selection of eps and min_samples.
+
 
 
 
