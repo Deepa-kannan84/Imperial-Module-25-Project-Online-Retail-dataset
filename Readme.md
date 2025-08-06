@@ -45,7 +45,7 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 - AIC: 12044, Log likelihood: -6014
 - Forecast: Daily total sales for the next 15 days.
 - Limitations: Not suitable for long-term forecasts or sudden changes.
-
+<img src="Images/ARIMA.png" alt=" KNN" style="width: 300px; height: 200px;">
 ### **Logistic Regression**:
 - Accuracy: 94% (with SMOTE)
 - Limitations: Can overfit with synthetic SMOTE data.
@@ -65,6 +65,7 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 ### **DBSCAN**:
 - Silhouette Score: 0.51 (Fairly good clustering with some noise)
 - Limitations: Sensitive to the selection of eps and min_samples.
+
 
 
 
