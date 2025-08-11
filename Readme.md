@@ -1,6 +1,6 @@
 # **Online Retail II - Customer Behavior Analysis**
 
-## **NON-TECHNICAL EXPLANATION OF YOUR PROJECT**
+## **NON-TECHNICAL EXPLANATION OF THIS PROJECT**
 This project analyzes customer behavior using the Online Retail II dataset to predict product demand, classify customer types, and segment customers based on their purchasing patterns. The aim is to help online retailers better understand customer preferences and improve their targeting strategies by using machine learning models like KNN, ARIMA, and clustering algorithms.
 
 ## **DATA**
@@ -76,6 +76,7 @@ Hyperparameters were optimized for each model using cross-validation, grid searc
 ### **DBSCAN**:
 - Silhouette Score: 0.51 (Fairly good clustering with some noise)
 - Limitations: Sensitive to the selection of eps and min_samples.
+
 
 
 
